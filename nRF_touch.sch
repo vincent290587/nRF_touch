@@ -1740,10 +1740,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <vertex x="15.91733125" y="-4.894790625"/>
 <vertex x="19.57916875" y="-4.894790625"/>
 </polygon>
-<smd name="P$1" x="-17.78" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="-7.874" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$3" x="3.81" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$4" x="16.51" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$1" x="-17.78" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="-7.874" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$3" x="3.81" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$4" x="16.51" y="4.318" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="GND" x="-0.635" y="5.715" dx="0.254" dy="0.254" layer="16" roundness="100"/>
 <wire x1="-19.6" y1="5.1" x2="-8" y2="5.1" width="1.5" layer="16"/>
 <wire x1="-8" y1="5.1" x2="0" y2="5.1" width="1.5" layer="16"/>
@@ -1772,7 +1772,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <rectangle x1="-19.05" y1="-5.08" x2="19.05" y2="5.08" layer="41"/>
 </package>
 <package name="BUTTON">
-<smd name="P$1" x="0" y="0" dx="11" dy="11" layer="1" roundness="90"/>
+<smd name="P$1" x="0" y="0" dx="11.43" dy="11.43" layer="1" roundness="90" stop="no" thermals="no" cream="no"/>
 <circle x="0" y="0" radius="1.79605" width="0.127" layer="16"/>
 <circle x="0" y="0" radius="3" width="0.127" layer="16"/>
 <wire x1="0" y1="0" x2="0" y2="6.088" width="0.127" layer="16"/>
