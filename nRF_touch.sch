@@ -5093,9 +5093,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-76.2" y="76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="P20"/>
-<wire x1="-40.64" y1="-53.34" x2="-40.64" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-40.64" y="-86.36" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="P9/NFC1"/>
+<wire x1="-78.74" y1="-38.1" x2="-99.06" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-99.06" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -5105,9 +5105,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-73.66" y="71.12" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="P15"/>
-<wire x1="-53.34" y1="-53.34" x2="-53.34" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-53.34" y="-60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="P10/NFC2"/>
+<wire x1="-78.74" y1="-40.64" x2="-83.82" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-83.82" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -5260,9 +5260,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="NEO_PIN" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="P16"/>
-<wire x1="-50.8" y1="-53.34" x2="-50.8" y2="-86.36" width="0.1524" layer="91"/>
-<label x="-50.8" y="-86.36" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="P7"/>
+<wire x1="-78.74" y1="-33.02" x2="-99.06" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-99.06" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AT42_COUT" class="0">
@@ -5446,9 +5446,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="LED_BCK" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="P13"/>
-<wire x1="-58.42" y1="-53.34" x2="-58.42" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-58.42" y="-60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="P8"/>
+<wire x1="-78.74" y1="-35.56" x2="-83.82" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-83.82" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="P6"/>
+<wire x1="-78.74" y1="-30.48" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-83.82" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
