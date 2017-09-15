@@ -3092,42 +3092,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <wire x1="-1.3" y1="2.8" x2="-1.7" y2="3.2" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="3.2" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 </package>
-<package name="FGPMMOPA6H">
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="21"/>
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
-<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
-<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
-<wire x1="8" y1="6" x2="8" y2="-6" width="0.127" layer="21"/>
-<wire x1="8" y1="-7.5" x2="8" y2="-8" width="0.127" layer="21"/>
-<wire x1="8" y1="8" x2="8" y2="7.5" width="0.127" layer="21"/>
-<circle x="0.5" y="0.85" radius="0.5" width="0.8128" layer="51"/>
-<circle x="-9.1" y="8.4" radius="0.3162" width="0.8128" layer="21"/>
-<smd name="P$1" x="-7.5" y="6.75" dx="2" dy="1" layer="1"/>
-<smd name="P$2" x="-7.5" y="5.25" dx="2" dy="1" layer="1"/>
-<smd name="P$3" x="-7.5" y="3.75" dx="2" dy="1" layer="1"/>
-<smd name="P$4" x="-7.5" y="2.25" dx="2" dy="1" layer="1"/>
-<smd name="P$5" x="-7.5" y="0.75" dx="2" dy="1" layer="1"/>
-<smd name="P$6" x="-7.5" y="-0.75" dx="2" dy="1" layer="1"/>
-<smd name="P$7" x="-7.5" y="-2.25" dx="2" dy="1" layer="1"/>
-<smd name="P$8" x="-7.5" y="-3.75" dx="2" dy="1" layer="1"/>
-<smd name="P$9" x="-7.5" y="-5.25" dx="2" dy="1" layer="1"/>
-<smd name="P$10" x="-7.5" y="-6.75" dx="2" dy="1" layer="1"/>
-<smd name="P$11" x="7.5" y="-6.75" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$12" x="7.5" y="-5.25" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$13" x="7.5" y="-3.75" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$14" x="7.5" y="-2.25" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$15" x="7.5" y="-0.75" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$16" x="7.5" y="0.75" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$17" x="7.5" y="2.25" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$18" x="7.5" y="3.75" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$19" x="7.5" y="5.25" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="P$20" x="7.5" y="6.75" dx="2" dy="1" layer="1" rot="R180"/>
-<text x="-8" y="8.5" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-8" y="-9.5" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<hole x="0.5" y="0.85" drill="3"/>
-</package>
 <package name="SOT23-5L">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
 package type OT</description>
@@ -3205,45 +3169,6 @@ package type OT</description>
 <wire x1="0.762" y1="-1.27" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="1.016" y1="-1.016" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <text x="2.54" y="3.048" size="0.6096" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="FGPMMOPA6H">
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
-<text x="-7.62" y="17.78" size="1.27" layer="94">FGPMMOPA6H GPS</text>
-<text x="-10.16" y="15.24" size="1.27" layer="94">MTK MT3339 Chipset</text>
-<text x="-10.16" y="-17.78" size="1.27" layer="94">VCC:</text>
-<text x="-9.906" y="-20.32" size="1.27" layer="94">VBACKUP:</text>
-<text x="2.54" y="-17.78" size="1.27" layer="94">3.0-4.3V</text>
-<text x="2.54" y="-20.32" size="1.27" layer="94">2.0-4.3V</text>
-<text x="-12.7" y="22.86" size="1.27" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-25.4" size="1.27" layer="95">&gt;VALUE</text>
-<pin name="VCC" x="-15.24" y="10.16" length="short"/>
-<pin name="NRESET" x="-15.24" y="7.62" length="short"/>
-<pin name="GND@1" x="-15.24" y="5.08" length="short"/>
-<pin name="VBACKUP" x="-15.24" y="2.54" length="short"/>
-<pin name="3D-FIX" x="-15.24" y="0" length="short"/>
-<pin name="NC@1" x="-15.24" y="-2.54" length="short"/>
-<pin name="NC@2" x="-15.24" y="-5.08" length="short"/>
-<pin name="GND@2" x="-15.24" y="-7.62" length="short"/>
-<pin name="TX" x="-15.24" y="-10.16" length="short"/>
-<pin name="RX" x="-15.24" y="-12.7" length="short"/>
-<pin name="EX_ANT" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="GND@3" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="1PPS" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="RTCM" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="NC@3" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="NC@4" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="NC@5" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="NC@6" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="GND@4" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="NC@7" x="15.24" y="10.16" length="short" rot="R180"/>
 </symbol>
 <symbol name="MCP73831/2">
 <wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
@@ -3617,41 +3542,6 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="DOUT" pad="2-DOUT"/>
 <connect gate="G$1" pin="GND" pad="3-GND"/>
 <connect gate="G$1" pin="VDD" pad="1-VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="GPS_FGPMMOPA6H" prefix="U" uservalue="yes">
-<description>&lt;b&gt;GPS Module&lt;/b&gt; - MTK MT3339 Chipset, -165dBm sensitivity, 22 channels, 10Hz, auto-select external antenna options</description>
-<gates>
-<gate name="G$1" symbol="FGPMMOPA6H" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FGPMMOPA6H">
-<connects>
-<connect gate="G$1" pin="1PPS" pad="P$13"/>
-<connect gate="G$1" pin="3D-FIX" pad="P$5"/>
-<connect gate="G$1" pin="EX_ANT" pad="P$11"/>
-<connect gate="G$1" pin="GND@1" pad="P$3"/>
-<connect gate="G$1" pin="GND@2" pad="P$8"/>
-<connect gate="G$1" pin="GND@3" pad="P$12"/>
-<connect gate="G$1" pin="GND@4" pad="P$19"/>
-<connect gate="G$1" pin="NC@1" pad="P$6"/>
-<connect gate="G$1" pin="NC@2" pad="P$7"/>
-<connect gate="G$1" pin="NC@3" pad="P$15"/>
-<connect gate="G$1" pin="NC@4" pad="P$16"/>
-<connect gate="G$1" pin="NC@5" pad="P$17"/>
-<connect gate="G$1" pin="NC@6" pad="P$18"/>
-<connect gate="G$1" pin="NC@7" pad="P$20"/>
-<connect gate="G$1" pin="NRESET" pad="P$2"/>
-<connect gate="G$1" pin="RTCM" pad="P$14"/>
-<connect gate="G$1" pin="RX" pad="P$10"/>
-<connect gate="G$1" pin="TX" pad="P$9"/>
-<connect gate="G$1" pin="VBACKUP" pad="P$4"/>
-<connect gate="G$1" pin="VCC" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4890,7 +4780,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R14" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U3" library="adafruit" deviceset="GPS_FGPMMOPA6H" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -5000,7 +4889,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LED1" gate="G$1" x="-10.16" y="81.28" rot="R90"/>
 <instance part="GND16" gate="1" x="2.54" y="81.28" rot="R90"/>
 <instance part="R12" gate="G$1" x="-22.86" y="81.28" rot="R180"/>
-<instance part="U3" gate="G$1" x="58.42" y="71.12"/>
 <instance part="J1" gate="G$1" x="-124.46" y="58.42" rot="R90"/>
 <instance part="J4" gate="G$1" x="-111.76" y="58.42" rot="R90"/>
 <instance part="J5" gate="G$1" x="-99.06" y="58.42" rot="R90"/>
@@ -5764,7 +5652,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="88.9" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NEO_DIN" class="1">
+<net name="NEO_DIN" class="0">
 <segment>
 <pinref part="Q1" gate="A" pin="D"/>
 <wire x1="88.9" y1="53.34" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
